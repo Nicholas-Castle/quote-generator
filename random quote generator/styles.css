@@ -1,0 +1,46 @@
+body {
+  background-color: #0697A6;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;;
+  font-size: 4.2em;
+  color: white;
+}
+#quoteDisplay {
+font-size: 2em;
+color: white;
+}
+.content {
+  width: 800px;
+  padding: 4px 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+
+}
+.loneButton {
+  background: #046670;
+  width: 180px;
+  padding: 4px 0;
+  left: 50%;
+  top: 50%;
+  margin-top: 51px;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+  p {
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+  }
+
+  .loneButton:hover {
+    cursor: pointer;
+  }
